@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Видео уроки</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #81c784, #66bb6a, #4caf50); /* Плавный градиент с зелеными оттенками */
+            color: #333;
+            line-height: 1.6;
+            background-attachment: fixed; /* Фиксированный фон */
+        }
+        header {
+            background: rgba(255, 255, 255, 0.8); /* Легкий полупрозрачный фон */
+            color: #2e7d32;
+            text-align: center;
+            padding: 50px 0;
+            font-size: 3em;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-bottom: 5px solid #2e7d32;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.9); /* Полупрозрачный белый фон */
+            border-radius: 20px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+        }
+        .video-block {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #f1f8e9;
+            border-radius: 12px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        .video-block:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+        }
+        .video-block h2 {
+            font-size: 1.8em;
+            color: #388e3c;
+            margin-bottom: 15px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        iframe {
+            width: 100%;
+            height: 450px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            font-size: 1em;
+            letter-spacing: 1px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 50px;
+        }
+        /* Анимации для блоков */
+        .video-block:nth-child(odd) {
+            background-color: #e8f5e9; /* Для чередования фона блоков */
+        }
+        .video-block:nth-child(even) {
+            background-color: #f9fbe7;
+        }
+        @media (max-width: 768px) {
+            header {
+                font-size: 2em;
+                padding: 30px 0;
+            }
+            .container {
+                padding: 20px;
+            }
+            iframe {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Video darslar
+    </header>
+    <div class="container">
+        <div class="video-block">
+            <h2 - Uchrashuv 1</h2>
+            <iframe src="https://www.youtube.com/embed/nIj6DhIe3LI" allowfullscreen></iframe>
+        </div>
+        <div class="video-block">
+            <h2>  </h2>
+            <iframe src="https://www.youtube.com/embed/6QgsRdwEEck" allowfullscreen></iframe>
+        </div>
+        <div class="video-block">
+            <h2></h2>
+            <iframe src="https://www.youtube.com/embed/V15mwRe93Es" allowfullscreen></iframe>
+        </div>
+        <div class="video-block">
+            <h2></h2>
+            <iframe src="https://www.youtube.com/embed/AFIe-fzqxm4" allowfullscreen></iframe>
+        </div>
+        <div class="video-block">
+            <h2></h2>
+            <iframe src="https://www.youtube.com/embed/haJ5zlCIa9Y" allowfullscreen></iframe>
+        </div>
+        <div class="video-block">
+            <h2></h2>
+            <iframe src="https://www.youtube.com/embed/GUolfnIQa2s" allowfullscreen></iframe>
+        </div>
+        <div class="video-block">
+            <h2></h2>
+            <iframe src="https://www.youtube.com/embed/V2BDzTyMde0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 Видео уроки. Все права защищены.
+    </footer>
+</body>
+</html>
